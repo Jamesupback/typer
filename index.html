@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Typing Speed Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div id="welcome">
+      <form id="inputform">
+      <div class="form__group field">
+        <input type="input" class="form__field" id="username" placeholder="Name" required>
+        <label for="name" class="form__label">Name</label>
+    </div>
+    <div class="form__group field">
+      <input type="input" class="form__field" id='userclass' placeholder="Class" required>
+      <label for="name" class="form__label">Class</label>
+  </div>
+  <select id="dropdown">
+    <option value="noob">Noob</option>
+    <option value="beginner">Beginner</option>
+    <option value="pro">Pro</option>
+</select>
+        <button id="welcome-button" type="submit"> I'M READY</button>
+      </form>
+    </div>
+    <div class="wrapper" id="wrap">
+      <input type="text" class="input-field">
+      <div class="content-box">
+        <div class="typing-text">
+          <p></p>
+        </div>
+        <div class="content">
+          <ul class="result-details">
+            <li class="time">
+              <p>Time Left:</p>
+              <span><b>60</b>s</span>
+            </li>
+            <li class="mistake">
+              <p>Mistakes:</p>
+              <span>0</span>
+            </li>
+            <li class="wpm">
+              <p>WPM:</p>
+              <span>0</span>
+            </li>
+            <li class="cpm">
+              <p>CPM:</p>
+              <span>0</span>
+            </li>
+          </ul>
+          <!-- <button>Try Again</button> -->
+        </div>
+      </div>
+    </div>
+
+
+    <div id="endscreen">
+      <div id="endtitle">Your time is up!!!</div>
+      <P>Name:<span id="uid"></span></P>
+      <P>Class:<span id="classid"></span></P>
+      <P>CPM:<span id="cpmid"></span></P>
+      <P>Mistakes:<span id="missid"></span></P>
+      <p>Wpm:<span id="wordsper"></span></p>
+    </div>
+    <script src="./paragraphs.js"></script>
+    <script src="./script.js"></script>
+  
+  </body>
+</html>
