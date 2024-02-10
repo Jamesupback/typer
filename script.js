@@ -14,7 +14,7 @@ endscreen=document.getElementById("endscreen")
 
 let username,classid;
 let timer,
-maxTime = 5,
+maxTime = 60,
 timeLeft = maxTime,
 charIndex = mistakes = isTyping = 0;
 
