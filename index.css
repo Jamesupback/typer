@@ -7,12 +7,21 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
+  background: #292F36;
+}
+h1{
+  text-align: center;
+  margin-top: 2%;
+  font-family:Nabla ;
+  color:aliceblue;
+  font-size: 70px;
+}
+#entirewrapper{
   display: flex;
+  margin-top: 4%;
   padding: 0 10px;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  background: #30343f;
 }
 ::selection{
   color: #fff;
@@ -321,7 +330,7 @@ li:not(:first-child) span{
   font-size: 35px;
 }
 
-#uid,#classid,#cpmid,#missid,#wordsper{
+#uid,#classid,#cpmid,#missid,#wordsper,#diff{
   margin-left: 15px;
   color:burlywood
 }
